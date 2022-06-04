@@ -13,8 +13,8 @@ function onAddTodo(event) {
         checked: false,
       })
     );
+    event.target.value = "";
   }
-  event.target.value = "";
 }
 
 function createTodoDiv(todo) {
