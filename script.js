@@ -14,6 +14,7 @@ function onAddTodo(event) {
       })
     );
   }
+  event.target.value = "";
 }
 
 function createTodoDiv(todo) {
