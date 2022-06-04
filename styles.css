@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: indigo;
+  transition-duration: 500ms;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.HeaderContainer {
+  border-bottom: 4px solid gold;
+  background-color: #f3f4f6;
+  padding: 20px;
+}
+
+.HeaderContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainContainer {
+  max-width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SearchInputContainer {
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  margin-top: -60px;
+}
+
+.TodoInputContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.InputItem {
+  width: 100%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 25px;
+  border: 1px solid gold;
+  border-radius: 20px;
+}
+
+.TodoListContainer {
+  min-height: 100px;
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.TodoListTitle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.TodoItemContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 200px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid gold;
+}
+
+.TodoItemText {
+  margin-left: 20px;
+}
+
+.TodoItemDeleteButton {
+  margin-left: auto;
+  width: 15px;
+  border-radius: 200px;
+  border: 0;
+  background-color: #fca5a5;
+  opacity: 0.75;
+}
+
+.TodoItemDeleteButton:hover {
+  opacity: 1;
+}
